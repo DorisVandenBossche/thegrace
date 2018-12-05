@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
-  height: 88vh;
+  height: 80vh;
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
@@ -414,7 +414,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter {
   padding: 4em 0;
-  clear: both;
+  margin-top: -125px;
+  z-index: 1;
 }
 
 .fh5co-counters {
@@ -422,6 +423,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+ 
 }
 .fh5co-counters .icon {
   width: 80px;
@@ -872,7 +874,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(201, 6, 55, 0.63);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
@@ -929,6 +931,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-blog {
   margin-bottom: 60px;
+  margin-top: 50px;
 }
 .fh5co-blog > a {
   display: block;
@@ -992,6 +995,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-footer {
   background: #efefef;
+  margin-top: -130px;
+  height: 350px;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1473,3 +1478,4 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
+.hide-me[aria-expanded="true"] {display: none;}
